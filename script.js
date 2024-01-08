@@ -1,8 +1,6 @@
 //your JS code here. If required.
 
-
-   function functionName() {
+// Redefine the function to make it accessible via the window object
+window.functionName = function functionName() {
   alert(arguments.callee.name);
 }
-
-
